@@ -90,7 +90,7 @@ git_stash_info() {
 
 # Copied from fletcherm's theme. modified the git prompt info
 PROMPT='%{$fg_no_bold[magenta]%}🚀  %{$fg_no_bold[green]%}%3~$(git_prompt_info)%{$reset_color%} %{$fg_no_bold[gray]%} '
-RPROMPT='🔋 $(battery_pct_remaining) adjoifsfiosafijo $(battery_charge) %{$fg_no_bold[cyan]%} 🕑  %*%{$reset_color%}'
+RPROMPT='🔋 $(battery_pct_remaining)  $(battery_charge) %{$fg_no_bold[cyan]%} 🕑  %*%{$reset_color%}'
 
 # git theming
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}(%{$fg_no_bold[yellow]%}"
